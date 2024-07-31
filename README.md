@@ -71,15 +71,11 @@ After setting up both the backend and frontend, you can access the application i
 
 ## Deployment
 
-The application is deployed at [Task Management App](https://task-manamement-app.netlify.app/). Follow the instructions provided by your deployment platform to deploy your own version of the application.
+The application is deployed at [Task Management App](https://task-manamement-app.netlify.app/). Follow the instructions provided by your deployment platform to deploy your application version.
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
