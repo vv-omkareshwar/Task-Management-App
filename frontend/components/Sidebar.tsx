@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { useAppDispatch, setTriggerFetch } from '../store/store';
 import {
     BellDot,
     ChartLine,
@@ -30,6 +31,7 @@ interface SidebarComponentProps {
 const SidebarComponent: React.FC<SidebarComponentProps> = ({ user, pathname }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const router = useRouter();
+    const dispatch = useAppDispatch();
 
     // Function to open the task modal
     const handleModalOpen = () => {
@@ -43,6 +45,7 @@ const SidebarComponent: React.FC<SidebarComponentProps> = ({ user, pathname }) =
 
     // Function to handle user logout
     const handleLogout = () => {
+        dispatch(setTriggerFetch(true)); // Update the triggerFetch state
         localStorage.removeItem('authtoken');
         router.push('/login');
     };
