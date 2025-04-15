@@ -1,0 +1,38 @@
+# yarn.lock
+
+# This file is generated automatically by Yarn and should not be manually edited.
+# It is used to lock the versions of package dependencies.
+# To update this file, run `yarn install` or `yarn add <package>`.
+
+# Instructions for managing yarn.lock:
+
+# 1. Initial creation:
+#    - Ensure you have a package.json file in your project.
+#    - Run `yarn install` to generate the yarn.lock file.
+
+# 2. Adding new dependencies:
+#    - Use `yarn add <package>` to add new dependencies.
+#    - This will automatically update the yarn.lock file.
+
+# 3. Updating dependencies:
+#    - Use `yarn upgrade` to update all dependencies to their latest versions.
+#    - Use `yarn upgrade <package>` to update a specific package.
+
+# 4. Resolving conflicts:
+#    - If you encounter merge conflicts in yarn.lock, do not edit the file manually.
+#    - Instead, resolve conflicts in package.json and run `yarn install` to regenerate yarn.lock.
+
+# 5. Version control:
+#    - Always commit yarn.lock to your version control system along with package.json.
+
+# 6. CI/CD:
+#    - Ensure your CI/CD pipeline uses `yarn install --frozen-lockfile` to respect the locked versions.
+
+# Best practices:
+# - Never edit this file manually.
+# - Always use Yarn commands to manage dependencies.
+# - Keep this file in version control to ensure consistent builds across all environments.
+# - Regularly update dependencies to get the latest features and security patches.
+
+# Note: The actual content of this file will be a list of all installed packages,
+# their versions, and integrity hashes. It's automatically generated and updated by Yarn.
